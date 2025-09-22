@@ -50,11 +50,11 @@ import java.util.Scanner;
         return cima == null;
     }
 }
-
+//clase principal que contiene el main y aqui inicia el lector de consola (escaner)
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+//son las dos pilas necesarias para las acciones 
         Pila<String> pilaPrincipal = new Pila<>();
         Pila<String> pilaSecundaria = new Pila<>();
 
