@@ -34,18 +34,22 @@ A continuación, se muestran ejemplos de la ejecución del programa en consola:
 
 ### 2. Escribir texto
 El usuario escribe un texto y se guarda en la pila principal.
+
 ![Escribir texto](image/escribir.png)
 
 ### 3. Deshacer acción (Undo)
 El texto más reciente se elimina de la pila principal y pasa a la pila secundaria.
+
 ![Deshacer](image/deshacer.png)
 
 ### 4. Rehacer acción (Redo)
 El texto eliminado vuelve a la pila principal desde la secundaria.
+
 ![Rehacer](image/rehacer.png)
 
 ### 5. Mostrar texto actual (Peek)
 Se muestra el último texto ingresado en la pila.
+
 ![Peek](image/actual.png)
 
 
