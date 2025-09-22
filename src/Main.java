@@ -61,6 +61,7 @@ public class Main {
         int opcion;
 
         do {
+         //Presentamos lista de opciones
             System.out.println("\n=== MENU ===");
             System.out.println("1. Escribir texto");
             System.out.println("2. Deshacer (Undo)");
