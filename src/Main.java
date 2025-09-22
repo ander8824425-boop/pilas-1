@@ -73,7 +73,7 @@ public class Main {
             sc.nextLine(); // Limpiar buffer
 
             switch (opcion) {
-                case 1:
+                case 1: //pedimos al usuario que ingrese un texto 
                     System.out.print("Escribe el texto: ");
                     String texto = sc.nextLine();
                     pilaPrincipal.push(texto);
@@ -81,7 +81,7 @@ public class Main {
                     System.out.println("Texto guardado.");
                     break;
 
-                case 2:
+                case 2://deshace lo que el usuario ponga y muestra el texto anterior 
                     if (!pilaPrincipal.isEmpty()) {
                         String eliminado = pilaPrincipal.pop();
                         pilaSecundaria.push(eliminado);
@@ -91,7 +91,7 @@ public class Main {
                     }
                     break;
 
-                case 3:
+                case 3://recupera e texto eliminado y lo vuelve a mostrar 
                     if (!pilaSecundaria.isEmpty()) {
                         String recuperado = pilaSecundaria.pop();
                         pilaPrincipal.push(recuperado);
@@ -101,7 +101,7 @@ public class Main {
                     }
                     break;
 
-                case 4:
+                case 4://muestra el texto actual 
                     if (!pilaPrincipal.isEmpty()) {
                         System.out.println("Texto actual: " + pilaPrincipal.peek());
                     } else {
@@ -109,7 +109,7 @@ public class Main {
                     }
                     break;
 
-                case 5:
+                case 5://el usuario sale del programa 
                     System.out.println("Saliendo del programa...");
                     break;
 
